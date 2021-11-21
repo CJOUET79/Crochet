@@ -1,0 +1,72 @@
+body {
+    width: 80%;
+    margin: auto;
+}
+
+[class*="col-"], footer {
+	color: black;
+	line-height: 40px;
+	text-align: center;
+    color: cadetblue;
+    margin-top: 20px;
+}
+
+.col-md-4, .col-md-offset-4 {
+    margin: auto;
+}
+
+a:hover, a:link, a:visited {
+    color: cadetblue;
+    font-weight: bold;
+}
+
+img {
+    width: 150px;
+    height: 150px;
+    border-radius: 10px;
+    border: thick double cadetblue;
+}
+
+aside {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header, footer {
+    padding-top: 10px;
+    color: cadetblue;
+}
+
+section{
+    display: block;
+    margin: auto;
+    border-radius: 20px;
+}
+
+h1 {
+    box-shadow: 10px 10px 5px cadetblue;
+    border-radius: 10px;
+}
+
+span, h1, h2, h4, footer {
+    color: cadetblue;
+}
+
+h3 {
+    border-radius: 10px;
+    text-decoration: underline cadetblue;
+}
+
+.tarif {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    width: 90px;
+    height: 90px;
+    border: solid 1px cadetblue;
+    border-radius: 60px;
+    text-align: center;
+    box-shadow: 10px 10px 5px cadetblue;
+}
